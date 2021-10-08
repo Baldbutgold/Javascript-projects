@@ -8,7 +8,7 @@ A django app that contains couple of javascript projects that various in difficu
 |-------------|
 | Objective   |
 | Approach    |
-| t. to build |
+| time to build |
 | Difficulties|
 | time taken  |
 | additional  |
