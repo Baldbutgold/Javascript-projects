@@ -1,4 +1,3 @@
-# test
 # Javascript Projects
 
 ### Description
