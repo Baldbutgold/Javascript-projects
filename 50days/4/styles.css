@@ -1,0 +1,39 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	background-color: #5D4E60;
+	text-align: center;
+}
+#search-container{
+	margin:0  auto;
+	display: inline-block;
+	overflow: hidden;
+
+}
+#search-bar {
+	margin:30vh auto;
+	width: 100%;
+	display: flex;
+	position: relative;
+}
+#search-field {
+	transition: width 0.5s ease;
+	font-size: 1.5em;
+	font-weight: bold;
+	border: none;
+	width: 0;
+	text-align: center;
+}
+#search-icon {
+	width: 30px;
+	height: 30px;
+}
+button {
+	border: none;
+	background-color: white;
+	padding: 5px;
+	cursor: pointer;
+}
