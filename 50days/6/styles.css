@@ -1,0 +1,36 @@
+* {
+	box-sizing: border-box
+}
+body {
+	margin: 0;
+	background-color: #E5E5E5;
+	font-family: 'Ubuntu';
+}
+#container {
+	margin: 0 auto;
+	position: relative;
+}
+.card {
+	width: 350px;
+	height: 220px;
+	background-color: #14213D;
+	border: black 5px solid;
+	border-radius: 15px;
+	color: #FCA311;
+	font-size: 2em;
+	margin: 17px auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: bold;
+	transform: translateX(400%);
+	transition: transform 0.4s ease;
+}
+
+.card:nth-of-type(even) {
+	transform: translateX(-400%);
+}
+
+.card.show {
+	transform: translateX(0);
+}
