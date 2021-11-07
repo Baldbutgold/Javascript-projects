@@ -1,0 +1,61 @@
+* {
+	box-sizing: border-box
+}
+body {
+	margin: 0;
+	font-family: 'ubuntu'
+}
+.left {
+	background-image: url("https://www.nairaland.com/attachments/4363357_20161016150637picbeauty_jpegaa377631923b8c6647e43d9f7c757d68");
+	background-color:rgba(43, 43, 44, 0.8);
+}
+.right {
+	background: url("https://img.buzzfeed.com/buzzfeed-static/static/2016-08/1/17/campaign_images/buzzfeed-prod-fastlane02/john-cena-dressed-up-as-hillary-clinton-at-the-te-2-3967-1470086223-23_dblbig.jpg");
+	background-color: rgba(61, 60, 169, 0.8);
+}
+.left:hover {
+	background-color: red;
+	width: 200vw;
+}
+.right:hover {
+	width: 200vw;
+	background-color: red;
+}
+.product {
+	background-blend-mode: multiply;
+	overflow: hidden;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: 0;
+	width: 50vw;
+	height; 50vh;
+	background-size: cover;
+	text-align: center;
+	transition: all 1000ms ease-in-out;
+}
+#container {
+	display: flex;
+	margin: 0;
+	width: 100vw;
+	height: 100vh;
+}
+.copy-write {
+	color: white;	
+	align-items: center;
+	margin: 35vh auto;
+}
+.copy-write h1 {
+	font-size: 5em;
+}
+.buttons {
+	font-size: 2em;
+	font-weight: bold;
+	padding: 25px;
+	border: 5px white solid;
+	background-color: transparent;
+	color: white;
+	cursor: pointer;
+}
+.hovered {
+	width: 75vw;
+}
