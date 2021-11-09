@@ -1,0 +1,27 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-color: #a2d2ff;
+	font-style: 'Ubuntu'
+}
+button {
+	background-color: #cdb4db;
+	padding: 20px;
+	border: none;
+	border-radius: 15px;
+	margin: 35px;;
+	width: 200px;
+	cursor: pointer;
+	font-size: 2em;
+	transition: all ease-in 0.5s;
+}
+button:hover {
+	background-color: #3d5a80 ;
+	transform: scale(1.5);
+}
