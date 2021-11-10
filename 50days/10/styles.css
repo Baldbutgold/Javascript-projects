@@ -1,0 +1,45 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	background-color: #8ecae6;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+#container {
+	background-color: #023047;
+	color: white;
+	padding: 150px;
+	border-radius: 25px;
+}
+
+#containier h1 {
+	margin: 0 auto;
+}
+
+#container h3 {
+	text-align: center;
+	margin-top: 100px;
+	padding-bottom: 200px;
+}
+button {
+	padding: 24px;
+	font-size: 2em;
+	border: none;
+	background-color: #fb8500;
+	border-radius: 15px;
+	font-family: 'Poppins';
+	font-weight: bold;
+	margin-left: 50px;
+	cursor: pointer;
+	transition: 0.5s ease-in-out all;
+}
+button:hover {
+	transform: scale(1.5);
+}
