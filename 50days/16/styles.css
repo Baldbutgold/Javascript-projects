@@ -1,0 +1,60 @@
+* {
+	box-sizing: border-box;
+	font-family: 'Mochiy Pop P One', sans-serif;
+}
+body {
+	background-color: lightblue;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+#miniBottlesContainer {
+	display: flex;
+	margin: 15px;
+}
+.waterBottle {
+	border: 5px solid #03045e;
+	background-color: white;
+	border-bottom-right-radius: 35px;
+	border-bottom-left-radius: 35px; 
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+#bigBottleContainer {
+	width: 200px;
+	height: 500px;
+	flex-direction: column;
+	justify-content: end;
+}
+.miniBottle {
+	width: 75px;
+	height: 150px;
+	margin: 15px;
+}
+/* background-color: #03045e;
+ waterColor: #00b4d8;
+ emptyBottleColor: #caf0f8 */
+button {
+	border: none;
+	background-color: transparent;
+}
+.clicked .miniBottle {
+	background-color: blue;
+}
+#filled {
+	transition: all 0.5s ease-in-out 0s;
+	height: 0%;
+	width: 100%;
+	text-align: center;
+	background-color: blue;
+	border-bottom-right-radius: 25px;
+	border-bottom-left-radius: 25px;
+}
+h1 {
+	margin: 0;
+	font-size: 1em;
+}
