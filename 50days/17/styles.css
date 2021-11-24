@@ -1,0 +1,27 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	background-color: lightblue;
+}
+
+nav {
+	display: fixed;
+	position: sticky;
+	top: 0;
+	background-color: red;
+	padding: 12px;
+	text-align: left;
+}
+
+#search {
+	display: block;
+	border: none;
+	background-color: lightyellow;
+	padding: 12px;
+	font-size: 2em;
+}
