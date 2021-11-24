@@ -1,0 +1,60 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0;
+	flex-direction: column;
+	position: relative;
+}
+button {
+	background-color: black;
+	color: white;
+	font-size: 3em;
+	margin: 50px;
+	border: none;
+	border-radius: 15px;
+	padding: 12px;
+}
+#clock {
+	margin-top: 150px;
+	padding: 0;
+}
+.arrow {
+	border-bottom: 4px solid black;
+	transition: all 0.2s ease-in-out;
+	width: 100px;
+	position: absolute;
+	transform-origin: 0 0;
+	bottom: 0;
+	transform: rotate(-90deg);
+}
+#seconds {
+	width: 75px;
+}
+#minutes {
+}
+#hours {
+	border-color: red;
+	width: 50px;
+}
+#date {
+	font-weight: bold;
+	font-size: 2em;	
+	position: absolute;
+	bottom: 50%;
+}
+.white {
+	color: black;
+	background-color: white;
+}
+.dark {
+	color: white;
+	background-color: black;
+}
+.white-arrow {
+	border-bottom-color: white;
+}
