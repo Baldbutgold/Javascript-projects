@@ -1,0 +1,20 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: black;
+}
+button {
+	font-size: 2em;
+	background-color:#800080;
+	font-style: 'Ubuntu';
+	padding: 32px;
+	color: white;
+	border: none;
+	cursor: pointer;
+}

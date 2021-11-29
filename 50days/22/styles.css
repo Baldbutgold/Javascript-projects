@@ -1,0 +1,29 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: darkblue;
+	flex-direction: column;
+}
+#drawing {
+	border: solid 2px black;
+	width: 80vw;
+	height: 80%;
+	background-color: white;
+	font-size: 10px;
+	margin: 0;
+	cursor: crosshair;
+}
+#nav {
+	margin-top: -10px;	
+	width: 79.8vw;;
+	display: inline-block;
+	padding: 22px; 
+	text-align: center;
+	background-color: lightblue;
+}

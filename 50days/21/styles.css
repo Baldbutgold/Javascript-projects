@@ -1,0 +1,28 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	height: 100vh;
+	background-color: lightblue;
+	display: flex;
+	justify-content:center;
+	align-items: center;
+}
+.container {
+	background-color: white;
+	border: black solid 4px;
+	width: 250px;
+	height: 250px;
+	margin: 15px;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+#img {
+	width: 243px;
+	height: 243px;
+	cursor: pointer;
+}
+.dashed {
+	border: black dashed 4px;
+}
